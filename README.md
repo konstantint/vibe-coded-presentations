@@ -3,6 +3,8 @@
 A vibe-coded presentation about the benefits of vibe-coded presentations.
 This project was bootstrapped with Vite and uses React, TypeScript, and Tailwind CSS.
 
+View it at https://konstantint.github.io/vibe-coded-presentations
+
 ## Project Setup
 
 ### Prerequisites
