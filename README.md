@@ -1,20 +1,46 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Vibe-coded presentation
 
-# Run and deploy your AI Studio app
+A vibe-coded presentation about the benefits of vibe-coded presentations.
+This project was bootstrapped with Vite and uses React, TypeScript, and Tailwind CSS.
 
-This contains everything you need to run your app locally.
+## Project Setup
 
-View your app in AI Studio: https://aistudio-preprod.corp.google.com/apps/e936a89e-e5b1-4370-a02b-25fa88fced98
+### Prerequisites
 
-## Run Locally
+- [Node.js](https://nodejs.org/) (version 18.x or newer recommended)
+- npm (comes with Node.js)
 
-**Prerequisites:**  Node.js
+### Installation
 
+1.  Clone the repository or download the source code.
+2.  Navigate to the project directory in your terminal.
+3.  Install the required dependencies:
+    ```bash
+    npm install
+    ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Available Scripts
+
+### `npm test`
+
+Runs the unit tests. This project uses Vitest for testing.
+
+```bash
+npm test
+```
+
+### `npm run dev`
+
+Runs the app in development mode at http://localhost:3000/vibe-coded-presentations/. The page will reload when you make changes.
+
+### `npm run build`
+
+Builds the app for production to the `dist/` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include hashes. Your app is ready to be deployed!
+
+## Deployment
+
+This project is configured to be deployed to a subdirectory named `/vibe-coded-presentations/`. This is set in the `vite.config.ts` file.
+
+After running `npm run build`, you can deploy the contents of the `dist/` folder to any static hosting service like GitHub Pages, Vercel, or Netlify.
